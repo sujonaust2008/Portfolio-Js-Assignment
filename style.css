@@ -1,0 +1,186 @@
+/* body {} */
+.text-color {
+    color: #391400;
+}
+
+header,
+.Feature-section,
+.FAQ-section,
+.contact-section {
+    background-color: #28293E;
+}
+
+.brandImages {
+    position: relative;
+    background-image: url(images/Polygon-1.png);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fontAwesomeStyle {
+    width: 24px;
+    height: 24px;
+}
+
+.brandImages-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+.heroName {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #EF6D58;
+
+}
+
+.heroText {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFFA3;
+
+}
+
+.heroButton {
+    background-color: #EF6D58;
+}
+
+.service-section,
+.profession-section,
+.dream-section {
+    background-color: #FDF0E9;
+}
+
+.serviceTitle {
+    color: #391400;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 64px;
+}
+
+.serviceSubTitle {
+    color: #EF6D58;
+    font-size: 16px;
+    text-align: center;
+}
+
+.disignImgBg,
+.contactButton {
+    background-color: #EF6D58;
+}
+
+.work-section,
+footer {
+    background-color: #28293E;
+}
+
+.work-img-1 {
+    background-image: url(images/Bitmap\ \(1\).png);
+    position: relative;
+    height: 500px;
+    background-size: cover;
+
+}
+
+.work-img-2 {
+    background-image: url(images/Bitmap\ \(2\).png);
+    position: relative;
+    height: 500px;
+    background-size: cover;
+}
+
+.work-img-3 {
+    background-image: url(images/Bitmap\ \(3\).png);
+    position: relative;
+    height: 500px;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .work-img-1,
+    .work-img-2,
+    .work-img-3 {
+        height: 330px;
+    }
+}
+
+.workDesignInfo {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    padding-bottom: 15px;
+}
+
+.Feature-section {
+    position: relative;
+}
+
+.git-item {
+    background-image: url(images/Star\ \(1\).png);
+    position: absolute;
+    top: 85%;
+    width: 148px;
+    height: 148px;
+}
+
+@media only screen and (max-width: 600px) {
+    .git-item {
+        top: 93%
+    }
+}
+
+.git-item>h5 {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.help-section {
+    background-color: #F9E5DA;
+}
+
+.testimonial-section {
+    background-color: #FDF0E9;
+}
+
+.testimonialDiv:hover {
+    background-color: white;
+    transform: scaleY(1.1);
+}
+
+.galary-section>div>img:hover {
+    border: 2px solid blue;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .Copyright,
+    .footerRow {
+        text-align: center;
+    }
+}
+
+.footerTitle {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #EF6D58;
+}
+
+@media only screen and (max-width: 800px) {
+    .footerTitle {
+        text-align: center;
+    }
+}
